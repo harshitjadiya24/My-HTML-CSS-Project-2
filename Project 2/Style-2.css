@@ -1,0 +1,143 @@
+#left h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 50;
+  font-size: 8vw;
+  line-height: 120px;
+}
+#left{
+  padding-top: 50px;
+  padding-left: 90px;
+  width: 40%;
+  gap: 30px;
+}
+#left-up{
+  padding-top: 8px;
+}
+#left-down{
+  padding-top: 88px;
+  padding-left: 10px;
+}
+#content{
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 26px;
+}
+#details{
+  margin-bottom: 0px;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 10px;
+}
+#colors{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 18%;
+  height: 28px;
+  border-radius: 30px;
+  padding: 0 10px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.one{
+  background-color: brown;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.two{
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+#colors-down{
+ padding-top: 17px;
+}
+#main{
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+#right{
+  width: 39%;
+  height: 45vw;
+  display: flex;
+  align-items: flex-end;
+}
+#right-left{
+  height: 11.3vw;
+  width: 15%;
+  padding-top: 71.4%;
+  padding-bottom: 80px;
+  position: absolute;
+  left: 29%;
+  bottom: -10%;
+}
+#right-right{
+  padding-bottom: 38.25vw;
+  width: 100%;
+}
+#right-left h2{
+  rotate: -90deg;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 178.7px;
+  text-align: start;
+  position: absolute;
+  top: 82.5%;
+  bottom: 50%;
+  right:50%;
+  left: 51.5%;
+}
+#dollar-rating{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.75vw;
+  width: 80%;
+}
+#dollar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+#rating{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+i{
+  color: gold;
+}
+img{
+  height: 80%;
+  width: 33%;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  left: 46%;
+}
+#cart{
+  color: white;
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  right: 60%;
+  left: 75%;
+}
+#cart h3{
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
